@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/bird.png" />
+    <title>Message Michael</title>
+    <link rel="stylesheet" href="./assets/css/css-reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <div class="email-header">
+            <strong>Message <a href="https://www.linkedin.com/in/mibird/" target="_blank">Michael Bird</a></strong> <br/>
+            I look forward to your message and aim to reply within 48 business hours!<br/><br/>
+        </div>
+        <form class="message-wrapper" action="https://formspree.io/f/mknalqyd" method="POST">
+            <label>
+                Your email address:
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Your message:
+                <textarea name="message" rows=5 required></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button id="email-button" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
